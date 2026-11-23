@@ -1,0 +1,453 @@
+{
+  "version": 1,
+  "id": "",
+  "name": "BeamNG.drive",
+  "games": [
+    "BeamNG.drive.x64.exe"
+  ],
+  "lightbar": {
+    "effect": "static",
+    "color": "#3060FF",
+    "color2": "#000000",
+    "speed": 1,
+    "brightness": "high"
+  },
+  "playerLeds": {
+    "mode": "number",
+    "number": 1,
+    "mask": 0
+  },
+  "micLed": "off",
+  "triggers": {
+    "left": {
+      "mode": "off",
+      "params": {},
+      "zones": null,
+      "frequency": 0
+    },
+    "right": {
+      "mode": "off",
+      "params": {},
+      "zones": null,
+      "frequency": 0
+    }
+  },
+  "triggerResponse": {
+    "left": {
+      "deadzone": 0,
+      "max": 255,
+      "curve": "linear",
+      "exponent": 1,
+      "points": null
+    },
+    "right": {
+      "deadzone": 0,
+      "max": 255,
+      "curve": "linear",
+      "exponent": 1,
+      "points": null
+    }
+  },
+  "sticks": {
+    "left": {
+      "innerDeadzone": 0.05,
+      "outerDeadzone": 0.02,
+      "shape": "round",
+      "curve": "linear",
+      "exponent": 1,
+      "points": null,
+      "antiDeadzone": 0,
+      "invertX": false,
+      "invertY": false
+    },
+    "right": {
+      "innerDeadzone": 0.05,
+      "outerDeadzone": 0.02,
+      "shape": "round",
+      "curve": "linear",
+      "exponent": 1,
+      "points": null,
+      "antiDeadzone": 0,
+      "invertX": false,
+      "invertY": false
+    }
+  },
+  "gyro": {
+    "sensitivity": 1,
+    "smoothing": 0.2,
+    "invertX": false,
+    "invertY": false
+  },
+  "rumble": {
+    "strength": 1
+  },
+  "haptics": {
+    "audio": "off",
+    "app": "",
+    "mode": "game",
+    "strength": 1,
+    "rumbleToHaptics": false,
+    "clicks": false,
+    "confirmPulses": false,
+    "clickStrength": 0.6,
+    "speaker": "off",
+    "speakerApp": "",
+    "speakerVolume": 0.8,
+    "gameAudio": "both",
+    "gameStrength": 1,
+    "gameLowPass": false
+  },
+  "mapping": {
+    "enabled": false,
+    "layerButton": "ps",
+    "buttons": {},
+    "layer": {},
+    "layers": [
+      {
+        "name": "Layer 1",
+        "button": "ps",
+        "mode": "hold",
+        "buttons": {}
+      }
+    ],
+    "chordWindowMs": 50,
+    "chords": [],
+    "triggers": {
+      "left": {
+        "mode": "off",
+        "softThreshold": 0.25,
+        "fullThreshold": 0.95,
+        "hysteresis": 0.05,
+        "hipFireMs": 80,
+        "soft": {
+          "kind": "none"
+        },
+        "full": {
+          "kind": "none"
+        }
+      },
+      "right": {
+        "mode": "off",
+        "softThreshold": 0.25,
+        "fullThreshold": 0.95,
+        "hysteresis": 0.05,
+        "hipFireMs": 80,
+        "soft": {
+          "kind": "none"
+        },
+        "full": {
+          "kind": "none"
+        }
+      }
+    },
+    "touchpad": {
+      "mode": "off",
+      "sensitivity": 1,
+      "acceleration": 0.5,
+      "scroll": true,
+      "scrollSpeed": 1,
+      "tapToClick": true,
+      "zoneLayout": "halves",
+      "zones": [
+        {
+          "press": {
+            "kind": "none"
+          },
+          "hold": null,
+          "double": null,
+          "triple": null,
+          "cycle": null,
+          "holdMs": 400,
+          "doubleMs": 250,
+          "turbo": false,
+          "turboHz": 10,
+          "toggle": false
+        },
+        {
+          "press": {
+            "kind": "none"
+          },
+          "hold": null,
+          "double": null,
+          "triple": null,
+          "cycle": null,
+          "holdMs": 400,
+          "doubleMs": 250,
+          "turbo": false,
+          "turboHz": 10,
+          "toggle": false
+        }
+      ],
+      "swipes": {
+        "up": {
+          "kind": "none"
+        },
+        "down": {
+          "kind": "none"
+        },
+        "left": {
+          "kind": "none"
+        },
+        "right": {
+          "kind": "none"
+        }
+      }
+    },
+    "gyroMouse": {
+      "mode": "off",
+      "button": "r1",
+      "axis": "yaw",
+      "sensitivityX": 1,
+      "sensitivityY": 1,
+      "invertX": false,
+      "invertY": false,
+      "smoothing": 0.2,
+      "deadzone": 0.5,
+      "useCalibration": false
+    },
+    "sticks": {
+      "left": {
+        "mode": "off",
+        "keys": {
+          "up": "w",
+          "down": "s",
+          "left": "a",
+          "right": "d"
+        },
+        "threshold": 0.5,
+        "speed": 1,
+        "ringMode": "off",
+        "ringThreshold": 0.9,
+        "ringHysteresis": 0.05,
+        "ringAction": {
+          "kind": "none"
+        }
+      },
+      "right": {
+        "mode": "off",
+        "keys": {
+          "up": "w",
+          "down": "s",
+          "left": "a",
+          "right": "d"
+        },
+        "threshold": 0.5,
+        "speed": 1,
+        "ringMode": "off",
+        "ringThreshold": 0.9,
+        "ringHysteresis": 0.05,
+        "ringAction": {
+          "kind": "none"
+        }
+      }
+    },
+    "flickStick": {
+      "enabled": false,
+      "countsPer360": 6545,
+      "threshold": 0.9,
+      "flickTimeMs": 100,
+      "snap": "off",
+      "deadzoneAngle": 0,
+      "smoothing": 0.2
+    }
+  },
+  "macros": [],
+  "emulation": {
+    "mode": "off",
+    "remap": {},
+    "swapSticks": false,
+    "hideMappedButtons": true
+  },
+  "telemetry": {
+    "rules": [
+      {
+        "signal": "brake",
+        "from": 0,
+        "to": 1,
+        "exponent": 1,
+        "target": "leftTrigger",
+        "trigger": {
+          "mode": "feedback",
+          "params": {
+            "start": 1,
+            "strength": 1
+          },
+          "zones": null,
+          "frequency": 0
+        },
+        "param": "strength",
+        "min": 1,
+        "max": 5,
+        "colorFrom": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "colorTo": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "blinkAt": null
+      },
+      {
+        "signal": "abs",
+        "from": 0.5,
+        "to": 1,
+        "exponent": 1,
+        "target": "leftTrigger",
+        "trigger": {
+          "mode": "vibration",
+          "params": {
+            "start": 1,
+            "amplitude": 6,
+            "frequency": 32
+          },
+          "zones": null,
+          "frequency": 0
+        },
+        "param": null,
+        "min": 0,
+        "max": 0,
+        "colorFrom": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "colorTo": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "blinkAt": null
+      },
+      {
+        "signal": "rpm",
+        "from": 0,
+        "to": 1,
+        "exponent": 1,
+        "target": "rightTrigger",
+        "trigger": {
+          "mode": "feedback",
+          "params": {
+            "start": 2,
+            "strength": 1
+          },
+          "zones": null,
+          "frequency": 0
+        },
+        "param": "strength",
+        "min": 1,
+        "max": 4,
+        "colorFrom": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "colorTo": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "blinkAt": null
+      },
+      {
+        "signal": "traction",
+        "from": 0.5,
+        "to": 1,
+        "exponent": 1,
+        "target": "rightTrigger",
+        "trigger": {
+          "mode": "vibration",
+          "params": {
+            "start": 2,
+            "amplitude": 5,
+            "frequency": 36
+          },
+          "zones": null,
+          "frequency": 0
+        },
+        "param": null,
+        "min": 0,
+        "max": 0,
+        "colorFrom": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "colorTo": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "blinkAt": null
+      },
+      {
+        "signal": "revLights",
+        "from": 0,
+        "to": 1,
+        "exponent": 1,
+        "target": "lightbar",
+        "trigger": null,
+        "param": null,
+        "min": 0,
+        "max": 0,
+        "colorFrom": {
+          "r": 0,
+          "g": 255,
+          "b": 0
+        },
+        "colorTo": {
+          "r": 255,
+          "g": 0,
+          "b": 0
+        },
+        "blinkAt": 0.95
+      },
+      {
+        "signal": "rpm",
+        "from": 0.4,
+        "to": 1,
+        "exponent": 1,
+        "target": "playerLeds",
+        "trigger": null,
+        "param": null,
+        "min": 0,
+        "max": 5,
+        "colorFrom": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "colorTo": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "blinkAt": null
+      },
+      {
+        "signal": "rumbleStrip",
+        "from": 0.5,
+        "to": 0.5,
+        "exponent": 1,
+        "target": "rumbleRight",
+        "trigger": null,
+        "param": null,
+        "min": 0,
+        "max": 120,
+        "colorFrom": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "colorTo": {
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "blinkAt": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "schema": 1,
+  "revision": 1,
+  "updated": "2026-11-23",
+  "profiles": [
+    {
+      "id": "ea-sports-f1",
+      "name": "EA SPORTS F1",
+      "games": [
+        "F1_24.exe",
+        "F1_25.exe"
+      ],
+      "controller": "any",
+      "tags": [
+        "racing",
+        "telemetry",
+        "f1"
+      ],
+      "author": "kaan237",
+      "version": "1.0.0",
+      "path": "profiles/ea-sports-f1.json",
+      "sha256": "4068d2676bcfe8e17ff8950d5b543f531f90a5118ba98389e765d006173e47fc",
+      "size": 8850,
+      "description": {
+        "en": "Brake resistance, ABS and traction vibration, rev light bar and kerb rumble from F1 telemetry. Turn on F1 telemetry in Integrations.",
+        "tr": "F1 telemetrisiyle fren direnci, ABS ve patinaj titreşimi, devir ışığı ve kasis titreşimi. Entegrasyonlar sayfasında F1 telemetrisini açın."
+      },
+      "summary": {
+        "leftTrigger": "off",
+        "rightTrigger": "off",
+        "emulation": "off",
+        "mappingEnabled": false,
+        "layerCount": 1,
+        "chordCount": 0,
+        "macroCount": 0,
+        "gyroMouse": "off",
+        "gyroStick": "off",
+        "flickStick": false,
+        "audioHaptics": false,
+        "telemetryRules": 7
+      }
+    },
+    {
+      "id": "assetto-corsa-competizione",
+      "name": "Assetto Corsa Competizione",
+      "games": [
+        "AC2-Win64-Shipping.exe"
+      ],
+      "controller": "any",
+      "tags": [
+        "racing",
+        "telemetry",
+        "acc"
+      ],
+      "author": "kaan237",
+      "version": "1.0.0",
+      "path": "profiles/assetto-corsa-competizione.json",
+      "sha256": "eb99f6f0ec07162edbc7632d163a13b3a49a2abcdbf822fed6a5090c286b86f9",
+      "size": 8849,
+      "description": {
+        "en": "Brake resistance, ABS and traction vibration, rev light bar and kerb rumble in ACC. Turn on Assetto Corsa / ACC in Integrations.",
+        "tr": "ACC için fren direnci, ABS ve patinaj titreşimi, devir ışığı ve kasis titreşimi. Entegrasyonlar sayfasında Assetto Corsa / ACC'yi açın."
+      },
+      "summary": {
+        "leftTrigger": "off",
+        "rightTrigger": "off",
+        "emulation": "off",
+        "mappingEnabled": false,
+        "layerCount": 1,
+        "chordCount": 0,
+        "macroCount": 0,
+        "gyroMouse": "off",
+        "gyroStick": "off",
+        "flickStick": false,
+        "audioHaptics": false,
+        "telemetryRules": 7
+      }
+    },
+    {
+      "id": "assetto-corsa",
+      "name": "Assetto Corsa",
+      "games": [
+        "acs.exe"
+      ],
+      "controller": "any",
+      "tags": [
+        "racing",
+        "telemetry",
+        "assetto-corsa"
+      ],
+      "author": "kaan237",
+      "version": "1.0.0",
+      "path": "profiles/assetto-corsa.json",
+      "sha256": "565be141f1cb8f978770891b81ac13c0045586b2b4d77c0dda681730b6e41ca0",
+      "size": 8821,
+      "description": {
+        "en": "Brake resistance, ABS and traction vibration, rev light bar and kerb rumble. Turn on Assetto Corsa / ACC in Integrations.",
+        "tr": "Fren direnci, ABS ve patinaj titreşimi, devir ışığı ve kasis titreşimi. Entegrasyonlar sayfasında Assetto Corsa / ACC'yi açın."
+      },
+      "summary": {
+        "leftTrigger": "off",
+        "rightTrigger": "off",
+        "emulation": "off",
+        "mappingEnabled": false,
+        "layerCount": 1,
+        "chordCount": 0,
+        "macroCount": 0,
+        "gyroMouse": "off",
+        "gyroStick": "off",
+        "flickStick": false,
+        "audioHaptics": false,
+        "telemetryRules": 7
+      }
+    },
+    {
+      "id": "beamng-drive",
+      "name": "BeamNG.drive",
+      "games": [
+        "BeamNG.drive.x64.exe"
+      ],
+      "controller": "any",
+      "tags": [
+        "racing",
+        "telemetry",
+        "beamng"
+      ],
+      "author": "kaan237",
+      "version": "1.0.0",
+      "path": "profiles/beamng-drive.json",
+      "sha256": "f0f8f69efa12369a7ace1e78a2ecaf477ceaa174022c9e93e6f7f5275545a47e",
+      "size": 8839,
+      "description": {
+        "en": "Brake resistance, ABS and traction vibration and shift light. Turn on BeamNG.drive OutGauge in Integrations.",
+        "tr": "Fren direnci, ABS ve patinaj titreşimi ve vites ışığı. Entegrasyonlar sayfasında BeamNG.drive OutGauge'u açın."
+      },
+      "summary": {
+        "leftTrigger": "off",
+        "rightTrigger": "off",
+        "emulation": "off",
+        "mappingEnabled": false,
+        "layerCount": 1,
+        "chordCount": 0,
+        "macroCount": 0,
+        "gyroMouse": "off",
+        "gyroStick": "off",
+        "flickStick": false,
+        "audioHaptics": false,
+        "telemetryRules": 7
+      }
+    },
+    {
+      "id": "forza-horizon-5",
+      "name": "Forza Horizon 5",
+      "games": [
+        "ForzaHorizon5.exe"
+      ],
+      "controller": "any",
+      "tags": [
+        "racing",
+        "telemetry",
+        "forza"
+      ],
+      "author": "kaan237",
+      "version": "1.0.0",
+      "path": "profiles/forza-horizon-5.json",
+      "sha256": "53a5cbddac11d59f008a4389f1f8e5ab9ae924d61bfa45f214d86dd18fe465f3",
+      "size": 8833,
+      "description": {
+        "en": "Brake resistance, ABS and traction vibration, rev light bar and rumble strips from Data Out. Turn on Forza telemetry in Integrations.",
+        "tr": "Data Out verisiyle fren direnci, ABS ve patinaj titreşimi, devir ışığı ve kasis titreşimi. Entegrasyonlar sayfasında Forza telemetrisini açın."
+      },
+      "summary": {
+        "leftTrigger": "off",
+        "rightTrigger": "off",
+        "emulation": "off",
+        "mappingEnabled": false,
+        "layerCount": 1,
+        "chordCount": 0,
+        "macroCount": 0,
+        "gyroMouse": "off",
+        "gyroStick": "off",
+        "flickStick": false,
+        "audioHaptics": false,
+        "telemetryRules": 7
+      }
+    }
+  ]
+}
